@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #7a5cfa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    width: 760px;
+    height: 500px;
+    background-color: #ffffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.username,
+.password{
+    width: 564px;
+    height: 82px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.password{
+    height: 108px;
+}
+
+.username label,
+.password label{
+    width: 564px;
+    height: 18px;
+    color: #666666;
+    margin-bottom: 8px;
+    font-size: 12pt;
+}
+
+.username input,
+.password input{
+    width: 564px;
+    height: 56px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.username input::placeholder,
+.password input::placeholder{
+    width: 532px;
+    height: 24px;
+    padding-left: 16px;
+    color: #666666;
+}
+
+.username input:focus,
+.password input:focus{
+    border-color: #7a5cfa;
+    padding-left: 16px;
+}
+
+.password p{
+    width: 564px;
+    height: 18px;
+    font-size: 12pt;
+    color: #666666;
+    margin-top: 8px;
+}
+
+
+.btn {
+    width: 564px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+button {
+    width: 172px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #7a5cfa;
+    border: none;
+    color: #ffffffff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:#7a5cfa;
+}
+
