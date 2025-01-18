@@ -8,10 +8,12 @@ $(document).ready(function(){
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
         var area = document.getElementById("area").value;
+        var select = document.getElementById("select").value;
         var obj = {
             username: username,
             password: password,
-            area: area
+            select: select,
+
         }
         localStorage.setItem("Cadastro", JSON.stringify(obj));
         form.reset();

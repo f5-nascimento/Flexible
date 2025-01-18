@@ -11,6 +11,7 @@ $(document).ready(function(){
         document.getElementById("username").textContent = dados_str.username;
         document.getElementById("password").textContent = dados_str.password;
         document.getElementById("area").textContent = dados_str.area;
+        document.getElementById("select").textContent = dados_str.select;
     })
 
 });
